@@ -30,7 +30,7 @@ Vagrant.configure(2) do |config|
     # Copy 'pdo_firebird.so' to '/usr/local/apache/modules/'
     # Copy 'libfbclient.so.2' to '/usr/local/lib/' on the Qnap
     # Run 'ldconfig' once to include the shared library
-    # Run 'ldd /usr/local/apache/modules/pdo_firebird.so' to check that all libraries are loaded
+    # Run 'ldd /usr/local/apache/modules/pdo_firebird.so' to verify that all libraries found and can be loaded
 
   SHELL
 end
