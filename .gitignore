@@ -1,0 +1,6 @@
+.vagrant/
+.idea/
+libfbclient.so.2
+pdo_firebird.so
+
+
